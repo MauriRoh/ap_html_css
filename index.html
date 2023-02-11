@@ -5,63 +5,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Poppins:ital,wght@1,200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./static/css/salestyle.css">
+
     <title>Home</title>
 </head>
 
 <body>
     <header>
+        <div>
+            <h1 class="headerH1 fontFamilyKalam">Mighty Ducks Hockey League</h1>
+        </div>
 
-        <aside>
-            <figure>
-                <img src="./assets/images/01-LogoMightyDucks.png" height="100" alt="Logo Mighty Ducks">
-            </figure>
-        </aside>
+        <div class="navbar">
+            <nav>
+                <a class="navButton" href="./contact.html">Contact</a>
+                <a class="navButton" href="./about_mdhl.html">About</a>
+                <a class="navButton" href="index.html">Home</a>
+            </nav>
+        </div>
 
-        <h1>Mighty Ducks Hockey League</h1>
+        <div>
+            <img class="headerImg" src="./static/images/05-design1_image2.jpg" height="400" alt="01-Foto Mighty Ducks">
+        </div>
 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="./about_mdhl.html">About MDHL</a>
-            <a href="./contact.html">Contact</a>
-        </nav>
+        <h2 class="title2">Upcoming Events</h2>
 
     </header>
 
     <main>
+        <div class="contentMain">
+            <div class="isoLogo">
+                <aside>
+                    <img src="./static/images/01-LogoMightyDucks.png" height="100" alt="Logo Mighty Ducks">
+                </aside>
+            </div>
 
-        <div>
-            <aside>
-                <figure>
-                    <img src="./assets/images/01-hockey.jpg" height="400" alt="Foto Mighty Ducks">
-                </figure>
-            </aside>
+            <div class="infoMain">
+                <section>
+                    <article>
+                        <h2 class="infoMainH2">August 4</h2>
+                        <p class="infoMainP">MDSL Fundraiser</p>
+                    </article>
+
+                    <article>
+                        <h2 class="infoMainH2">August 16</h2>
+                        <p class="infoMainP">Season Kick-off: Meet the Teams</p>
+                    </article>
+
+                    <article>
+                        <h2 class="infoMainH2">September 1</h2>
+                        <p class="infoMainP">First Game of the Season (Check Game Schedule for details)</p>
+                    </article>
+
+                </section>
+            </div>
+
+            <div class="imgMainAside">
+                <aside>
+                    <img src="./static/images/01-hockey.jpg" height="300" alt="Foto Mighty Ducks">
+                </aside>
+            </div>
         </div>
 
-        <h2>Upcoming Events</h2>
-        
-        <div>
-            <section>
-                <h2>August 4</h2>
-                <article>
-                    <p>MDSL Fundraiser</p>
-                </article>
-
-                <h2>August 16</h2>
-                <article>
-                    <p>Season Kick-off: Meet the Teams</p>
-                </article>
-
-                <h2>September 1</h2>
-                <article>
-                    <p>First Game of the Season (Check Game Schedule for details)</p>
-                </article>
-            </section>
-
-        </div>
     </main>
 
-    <footer>
-
+    <footer class="footer">
+        <!-- <div class="footer">
+        </div> -->
     </footer>
 
 </body>
