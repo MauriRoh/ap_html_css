@@ -21,7 +21,7 @@
 
 /* HEADER */
 header {
-    padding: 0% 15% 0% 20%;
+    padding: 50px 15% 0% 20%;
 }
 
 .fontFamilyKalam{
@@ -30,10 +30,9 @@ header {
 
 .headerH1 {
     font-size: 40px;
-    text-align: left;;
     display: inline-block;
     position: absolute;
-    margin-top: 10px;
+    margin-top: -30px;
 }
 
 .navbar{
@@ -165,6 +164,7 @@ header {
 .footer {
     position: relative;
     margin-top: 700px;
+    background-color: #0A2647;
 }
 
 .footerAbout {
@@ -175,4 +175,62 @@ header {
 .footerContact {
     position: relative;
     margin-top: 550px;
+}
+
+.h1Table {
+    margin: 85px 50px 0px 250px;
+    display: flex;
+}
+
+.h2Table {
+    margin: 10px 50px 10px 250px;
+    display: flex;
+}
+
+.containTable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+table {
+    font-size: 15px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: var(--blue-03);
+    color: var(--white-01);
+    align-items: center;
+    padding:20px 100px 20px 100px;
+}
+
+td {
+    padding: 10px 0px 10px 90px;
+    background-color: var(--white-01);
+}
+
+tbody tr td:hover {
+    background: var(--green-04);
+}
+
+tbody tr td {
+    cursor: pointer;
+}
+
+.dataTableFooter {
+    margin: 10px 160px 0px 230px;
+    display: flex;
+}
+
+.contentRules {
+    left: 10px;
+    padding: 0px 230px 100px 80px;
+}
+
+li {
+    font-size: 23px;
+    padding: 0px 100px 0px 235px;
 }
