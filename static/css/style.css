@@ -1,0 +1,351 @@
+:root {
+--blue-01: #0A2647;
+--blue-02: #144272;
+--blue-03: #205295; 
+--blue-04: #2C74B3; 
+--blue-05: #FAF7F0;
+--green-01: #439A97;
+--green-02: #62B6B7;
+--green-03: #97DECE;
+--green-04: #CBEDD5;
+--white-01: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--blue-05);
+    font-family: 'Poppins', sans-serif;
+    /* background-image: url(); */
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+
+/* HEADER */
+header {
+    padding: 50px 15% 0% 20%;
+}
+
+.fontFamilyKalam{
+    font-family: 'Kalam', cursive;
+}
+
+.headerH1 {
+    font-size: 40px;
+    display: inline-block;
+    position: absolute;
+    margin-top: -30px;
+}
+
+.navbar{
+    float: right;
+    padding-right: 4%;
+    padding-top: 2%;
+}
+
+.navButton {
+    color: var(--white-01) !important;
+    border: 2px solid var(--white-01);
+    font-size: 15px;
+    font-weight: 200;
+    padding: 1px 1em;
+    background-color: var(--blue-03);
+    transition: all 1.5s ease;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 1.2em;
+    float: right;
+    margin-top: 10px;
+}
+
+.navButton:hover {
+    background-color: var(--blue-04);
+    border-color: var(--white-01);
+    color: var(--green-03);
+}
+
+.navButton:active {
+    background-color: var(--green-02);
+}
+
+.headerImg {
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+.title2 {
+    width: 947px;
+    font-size: 35px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    margin-top: -7px;
+    background-color: var(--blue-02);
+    color: var(--white-01);
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* MAIL */
+.isoLogo {
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+}
+
+.infoMain {
+    display: inline-block;
+    position: absolute;;
+    left: 180px;
+}
+
+.infoMainH2 {
+    font-size: 25px;
+    background-color: transparent;
+}
+
+.infoMainP {
+    font-size: 18px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    background-color: transparent;
+}
+
+.infoMainPAbout {
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 250px;
+    padding-bottom: 5px;
+    background-color: transparent;
+}
+
+.imgMainAside {
+    display: inline-block;
+    position: absolute;
+    right: 40%;
+    top: 250px;
+}
+
+.imgMainAsideAbout {
+    display: inline-block;
+    position: absolute;
+    right: 40%;
+    top: 500px;
+}
+
+.imgMainAsideCont {
+    display: inline-block;
+    position: absolute;
+    right: 40%;
+    top: 100px;
+}
+
+.contentMain {
+    position: relative;
+    margin: 85px 50px 0% 300px;
+}
+
+.footerP {
+    display: inline-block;
+    position: absolute;
+    right: 43%;
+    top: -50px;
+    font-size: 15px;
+    color: var(--blue-05);
+    background-color: var(--blue-03);
+    margin-bottom: 20px;
+
+    width: 500px;
+    height: 100px;
+}
+
+.footer {
+    position: relative;
+    margin-top: 700px;
+    background-color: #0A2647;
+}
+
+.footerAbout {
+    position: relative;
+    margin-top: 950px;
+}
+
+.footerContact {
+    position: relative;
+    margin-top: 550px;
+}
+
+.h1Table {
+    margin: 85px 50px 0px 250px;
+    display: flex;
+}
+
+.h2Table {
+    margin: 10px 50px 10px 250px;
+    display: flex;
+}
+
+.containTable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+table {
+    font-size: 15px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: var(--blue-03);
+    color: var(--white-01);
+    align-items: center;
+    padding:20px 100px 20px 100px;
+}
+
+td {
+    padding: 10px 0px 10px 90px;
+    background-color: var(--white-01);
+}
+
+tbody tr td:hover {
+    background: var(--green-04);
+}
+
+tbody tr td {
+    cursor: pointer;
+}
+
+.dataTableFooter {
+    margin: 10px 160px 0px 230px;
+    display: flex;
+}
+
+.contentRules {
+    left: 10px;
+    padding: 0px 230px 100px 80px;
+}
+
+li {
+    font-size: 23px;
+    padding: 0px 100px 0px 235px;
+}
+
+form {
+    width: 60%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px 10px 20px 10px;
+    box-sizing: border-box;
+    margin-top: 75px;
+    border-radius: 7px;
+}
+
+legend {
+    font-size: 20px;
+    justify-content: center;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+input, select{
+    font: size 15px;
+    width: 45%;
+    margin: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.closestschool {
+    margin: 10 px;
+    font-size: 20px;
+    background-color: #2C74B3;
+}
+
+.genderLabel, .SchoolLabel {
+    font: size 15px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.gender, .SchoolInpit {
+    font: size 15px;
+    width: 20px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.permissionPlay {
+    margin-top: 20px;
+}
+
+.permissionPlayP {
+    font-size: 15px;
+    margin: 10px;;
+    text-align: justify;
+}
+
+.buttonFomrRegistration {
+    color: var(--white-01) !important;
+    border: 2px solid var(--white-01);
+    font-size: 15px;
+    font-weight: 200;
+    padding: 1px 1em;
+    background-color: var(--green-01);
+    transition: all 1.5s ease;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.buttonFomrRegistration:hover {
+    background-color:var(--green-03);
+    border-color: var(--white-01);
+}
+
+.buttonFomrRegistration:active {
+    background-color: var(--green-04);
+}
+
+.maps {
+    /* width: 500px; */
+    margin: 10px 100px 10px 300px;
+    display: inline-block;
+    position: absolute;
+    justify-content: center;
+    background-color: #0A2647;
+}
+
+.mapIframe {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 2px solid var(--blue-01);
+}
+
+@media (max-width:950px){
+    form {
+        width: 100%;
+
+    }
+}
+
+@media (max-width:480px) {
+    form {
+        width: 100%;
+
+    }
+}
