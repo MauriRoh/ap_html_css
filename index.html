@@ -4,12 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Poppins:ital,wght@1,200&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Inder&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
         rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="static/bootstrap/css/mdb.dark.min.css">
+    <link rel="stylesheet" href="static/bootstrap/css/mdb.dark.rtl.min.css">
+    <link rel="stylesheet" href="static/bootstrap/css/mdb.min.css">
+    <link rel="stylesheet" href="static/bootstrap/css/mdb.rtl.min.css">
+    <script type="text/javascript" src="static/bootstrap/js/mdb.min.js"></script>
+    <!--My Styles -->
     <link rel="stylesheet" href="./static/css/style.css">
 
     <title>Home</title>
@@ -17,71 +25,93 @@
 
 <body>
     <header>
-        <div>
-            <h1 class="headerH1 fontFamilyKalam">Mighty Ducks Hockey League</h1>
+        <div class="row">
+            <div class="col-sm-12 contaiFirst">
+                <div class="row">
+                    <div class="col-sm-2 imgHedFirst">
+                        <a href="./index.html">
+                            <img src="./static/images/01-LogoMightyDucks.png" height="45" alt="Logo Mighty Ducks">
+                        </a>
+                    </div>
+                    <div class="col-sm-8 HedFirstName">
+                        <p class="hedFirst">MIGHTY DUCKS HOCKEY LEAGUE</p>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1 class="hedH1">MIGHTY DUCKS HOCKEY LEAGUE</h1>
+                    </div>
+                    <div class="col-sm-12">
+                        <nav class="navb">
+                            <a class="navButton" style="background-color: #F2D338;" href="index.html">Home</a>
+                            <a class="navButton" href="./about.html">About</a>
+                            <a class="navButton" href="./games.html">Games</a>
+                            <a class="navButton" href="./rules.html">Rules</a>
+                            <a class="navButton" href="./registration.html">Registration</a>
+                            <a class="navButton" href="./contact.html">Contact</a>
+                        </nav>
+                    </div>
+                    <div class="col-sm-12">
+                        <img class="headerImg" src="./static/images/05-design1_image2.jpg" height="" alt="01-Foto Mighty Ducks">
+                        <h2 class="hedH1">UPCOMING EVENTS</h2>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="navbar">
-            <nav>
-                <a class="navButton" href="./contact.html">Contact</a>
-                <a class="navButton" href="./registration.html">Registration</a>
-                <a class="navButton" href="./rules.html">Rules</a>
-                <a class="navButton" href="./games.html">Games</a>
-                <a class="navButton" href="./about.html">About</a>
-                <a class="navButton" href="index.html">Home</a>
-            </nav>
-        </div>
-
-        <div>
-            <img class="headerImg" src="./static/images/05-design1_image2.jpg" height="400" alt="01-Foto Mighty Ducks">
-        </div>
-
-        <h2 class="title2">UPCOMING EVENTS</h2>
-
     </header>
-
+    
     <main>
-        <div class="contentMain">
-            <div class="isoLogo">
-                <aside>
-                    <img src="./static/images/01-LogoMightyDucks.png" height="100" alt="Logo Mighty Ducks">
-                </aside>
-            </div>
+        <div class="contMain">
+            <div class="row">
 
-            <div class="infoMain">
-                <section>
-                    <article>
-                        <h2 class="infoMainH2">August 4</h2>
-                        <p class="infoMainP">MDSL Fundraiser</p>
-                    </article>
+                <div class="col-sm-2">
+                    <aside class="isoLogo">
+                        <img src="./static/images/01-LogoMightyDucks.png" height="" alt="Logo Mighty Ducks">
+                    </aside>
+                </div>
 
-                    <article>
-                        <h2 class="infoMainH2">August 16</h2>
-                        <p class="infoMainP">Season Kick-off: Meet the Teams</p>
-                    </article>
+                <div class="col-sm-8">
 
-                    <article>
-                        <h2 class="infoMainH2">September 1</h2>
-                        <p class="infoMainP">First Game of the Season (Check Game Schedule for details)</p>
-                    </article>
+                    <section class="infoMain">
+                        <article>
+                            <h2 class="artMainTitle">August 4</h2>
+                            <p class="artMainInfo">MDSL Fundraiser</p>
+                        </article>
+    
+                        <article>
+                            <h2 class="artMainTitle">August 16</h2>
+                            <p class="artMainInfo">Season Kick-off: Meet the Teams</p>
+                        </article>
+    
+                        <article>
+                            <h2 class="artMainTitle">September 1</h2>
+                            <p class="artMainInfo">First Game of the Season (Check Game Schedule for details)</p>
+                        </article>
+    
+                    </section>
+                    
+                </div>
 
-                </section>
-            </div>
+                <div class="col-sm-2"></div>
 
-            <div class="imgMainAside">
-                <aside>
-                    <img src="./static/images/01-hockey.jpg" height="300" alt="Foto Mighty Ducks">
-                </aside>
+                <div class="col-sm-12">
+                    <aside class="imgAside">
+                        <img src="./static/images/01-hockey.jpg" height="" alt="01 - Foto Mighty Ducks">
+                    </aside>
+                </div>
+
             </div>
         </div>
-
-    </main>
-
-    <footer class="footer">
-        <!-- <div class="footer">
-        </div> -->
+    </main> 
+    
+    <footer>
+        <p class="footerInfo"> &copy; MIGHTY DUCKS HOCKEY LEAGUE</p>
     </footer>
-
+    
 </body>
 
 </html>
